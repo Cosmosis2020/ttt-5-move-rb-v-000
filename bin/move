@@ -2,7 +2,7 @@
 # Code your CLI Here
 
 require_relative '../lib/move.rb'
-board = x
+ 
 board = [" "," "," "," "," "," "," "," "," "]
 
 display_board
