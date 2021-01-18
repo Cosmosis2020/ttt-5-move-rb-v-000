@@ -1,5 +1,18 @@
 #!/usr/bin/env ruby
-
+# Code your CLI Here
 require_relative '../lib/move.rb'
 
-# Code your CLI Here
+board = [" "," "," "," "," "," "," "," "," "]
+
+display_board
+
+greeting1
+
+input = gets.strip
+input_to_index(input)
+
+move
+
+greeting2
+
+display_board
